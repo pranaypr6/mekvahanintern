@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mekvahanintern/static/css/main.05a7e5c6.chunk.css",
+    "main.js": "/mekvahanintern/static/js/main.d0dd7561.chunk.js",
+    "main.js.map": "/mekvahanintern/static/js/main.d0dd7561.chunk.js.map",
+    "runtime-main.js": "/mekvahanintern/static/js/runtime-main.fd0e555c.js",
+    "runtime-main.js.map": "/mekvahanintern/static/js/runtime-main.fd0e555c.js.map",
+    "static/css/2.4c4477be.chunk.css": "/mekvahanintern/static/css/2.4c4477be.chunk.css",
+    "static/js/2.169a8d3e.chunk.js": "/mekvahanintern/static/js/2.169a8d3e.chunk.js",
+    "static/js/2.169a8d3e.chunk.js.map": "/mekvahanintern/static/js/2.169a8d3e.chunk.js.map",
+    "index.html": "/mekvahanintern/index.html",
+    "precache-manifest.bd201cab79b1cc717cef9cb04b7516cd.js": "/mekvahanintern/precache-manifest.bd201cab79b1cc717cef9cb04b7516cd.js",
+    "service-worker.js": "/mekvahanintern/service-worker.js",
+    "static/css/2.4c4477be.chunk.css.map": "/mekvahanintern/static/css/2.4c4477be.chunk.css.map",
+    "static/css/main.05a7e5c6.chunk.css.map": "/mekvahanintern/static/css/main.05a7e5c6.chunk.css.map",
+    "static/js/2.169a8d3e.chunk.js.LICENSE.txt": "/mekvahanintern/static/js/2.169a8d3e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/mekvahanintern/static/media/oops.9979e7e2.svg",
+    "static/media/contact.png": "/mekvahanintern/static/media/contact.55f9ddef.png",
+    "static/media/logo.svg": "/mekvahanintern/static/media/logo.10408929.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd0e555c.js",
+    "static/css/2.4c4477be.chunk.css",
+    "static/js/2.169a8d3e.chunk.js",
+    "static/css/main.05a7e5c6.chunk.css",
+    "static/js/main.d0dd7561.chunk.js"
+  ]
+}
