@@ -1,38 +1,121 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0;
+  height: 100vh;
+}
+.rowOne {
+  background-image: url("./assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rowTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rowOne,
+  .rowTwo {
+    height: 100vh;
+  }
+  .addressWrapper {
+    display: grid;
+    grid-template-columns: 10fr !important;
+  }
+  .side {
+    grid-column: 10fr !important;
+    width: 100vw;
+    height: 100vh;
+  }
+  .mainAdd {
+    grid-column: 10fr !important;
+  }
+  .sider {
+    width: 100vw;
+  }
+  .ant-layout-sider-children {
+    width: 100vw;
+    padding-top: 10em;
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.loginForm {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 > img {
+  width: 1.5em;
+  padding-right: 0.2em;
+  margin-bottom: 0.3em;
+}
+.address-input {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 1em;
+}
+.address-inputDiv {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.myProfile {
   display: flex;
-  flex-direction: column;
+  margin-bottom: 3em !important;
+}
+.addressWrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}
+
+.mainAdd {
+  border: 1px solid #000;
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+}
+.sider {
+  height: 100%;
+  width: 100%;
+  padding-top: 3em;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
+}
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+.oops {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./assets/oops.svg");
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.oops h5 {
+  color: #ff4d4f;
+  font-size: 1.5em;
 }
